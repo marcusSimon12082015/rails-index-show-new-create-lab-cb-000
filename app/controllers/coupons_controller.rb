@@ -8,7 +8,6 @@ class CouponsController < ApplicationController
     @coupon.coupon_code = params[:coupon_code]
     @coupon.store = params[:store]
     @coupon.save
-    byebug
     redirect_to coupon_path(@coupon)
   end
 
