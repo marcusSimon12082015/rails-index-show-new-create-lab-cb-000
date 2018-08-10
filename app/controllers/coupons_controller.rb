@@ -1,14 +1,14 @@
-class CouponsController < ApplicationController 
-  def index 
-  end 
+class CouponsController < ApplicationController
+  def index
+  end
 
-  def create 
-  end 
+  def create
+  end
 
-  def new 
-  end 
+  def new
+  end
 
-  def show 
+  def show
     @coupon = Coupon.find(params[:id])
-  end 
+  end
 end 
